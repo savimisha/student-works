@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPI+OMP_Matrix_Multiplication", "MPI+OMP_Matrix_Multiplication\MPI+OMP_Matrix_Multiplication.vcxproj", "{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OMP+TBB_Matrix_Multiplication", "OMP+TBB_Matrix_Multiplication\OMP+TBB_Matrix_Multiplication.vcxproj", "{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Debug|Win32.Build.0 = Debug|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Debug|x64.ActiveCfg = Debug|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|Mixed Platforms.Build.0 = Release|x64
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|Win32.ActiveCfg = Release|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|Win32.Build.0 = Release|Win32
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|x64.ActiveCfg = Release|x64
+		{A5CA8D08-F909-41C3-8C10-B9B501CB2DDE}.Release|x64.Build.0 = Release|x64
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Debug|Win32.Build.0 = Debug|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Debug|x64.ActiveCfg = Debug|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|Win32.ActiveCfg = Release|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|Win32.Build.0 = Release|Win32
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|x64.ActiveCfg = Release|x64
+		{C526B3B0-6FB4-485F-B4C1-45F0541CCC1E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
